@@ -47,6 +47,10 @@ createApp({
             } else {
                 this.currentImageIndex ++;
             }
+        },
+
+        onAnteprimaClick(ImmagineCliccata){
+            this.currentImageIndex = ImmagineCliccata;
         }
 
 
